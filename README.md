@@ -13,7 +13,7 @@ git clone https://github.com/Mcruz-G/flask-ner-api.git
 cd flask-ner-api
 ```
 
-**3.** Instala las dependencias:
+**3.** Instala las dependencias (tip: instala las dependencias en un entorno virtual):
 
 ```bash
 pip install flask spacy
