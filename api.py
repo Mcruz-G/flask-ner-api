@@ -19,6 +19,8 @@ def ner():
             "entidades": entidades
         })
     
+    # Interpreté que se espera que la oración esté en español, por eso
+    # Uso ensure_ascii=False para que no haya problemas con caracteres en español
     response_body = json.dumps({"resultado": result}, ensure_ascii=False)
     return Response(response_body, content_type="application/json; charset=utf-8")
 
