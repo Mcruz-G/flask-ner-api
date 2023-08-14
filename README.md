@@ -8,8 +8,10 @@ Una sencilla API REST construida con Flask y Spacy para el reconocimiento de ent
 
 **2.** Clona este repositorio:
 
+```bash
 git clone https://github.com/Mcruz-G/flask-ner-api.git
 cd flask-ner-api
+```
 
 **3.** Instala las dependencias:
 
